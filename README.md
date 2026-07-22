@@ -1,12 +1,12 @@
-# Majara Nexus — Marketplace
+# Majarrah Nexus — Marketplace
 
-[![skills.sh installs](https://skills.sh/b/MuhammadBahaa/majara-marketplace)](https://skills.sh/MuhammadBahaa/majara-marketplace)
+[![skills.sh installs](https://skills.sh/b/MuhammadBahaa/majarrah-marketplace)](https://skills.sh/MuhammadBahaa/majarrah-marketplace)
 
-Free, open AI-agent skills from **Majara Nexus**. Works with Claude Code and
+Free, open AI-agent skills from **Majarrah Nexus**. Works with Claude Code and
 every agent that supports the Agent Skills open standard (Codex, Cursor,
 GitHub Copilot, Gemini CLI).
 
-> This repository is **generated** from the private `MajaraCore` monorepo.
+> This repository is **generated** from the private `MajarrahCore` monorepo.
 > Do not edit here — changes are overwritten on the next release.
 
 ## Plugins
@@ -17,26 +17,26 @@ GitHub Copilot, Gemini CLI).
 
 ## Install
 
-### Any agent — [skills.sh](https://skills.sh/MuhammadBahaa/majara-marketplace)
+### Any agent — [skills.sh](https://skills.sh/MuhammadBahaa/majarrah-marketplace)
 Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, and 70+ others:
 ```bash
-npx skills add MuhammadBahaa/majara-marketplace
+npx skills add MuhammadBahaa/majarrah-marketplace
 ```
 
 ### Claude Code
 ```bash
-claude plugin marketplace add MuhammadBahaa/majara-marketplace
+claude plugin marketplace add MuhammadBahaa/majarrah-marketplace
 # then, inside Claude Code:
-/plugin install skill-craft@majara-marketplace
+/plugin install skill-craft@majarrah-marketplace
 ```
 
 ### Codex · Cursor · GitHub Copilot · Gemini CLI
 These agents read skills from `~/.agents/skills` (user-wide) or
 `<project>/.agents/skills` (per project). Copy the skill folders in:
 ```bash
-git clone https://github.com/MuhammadBahaa/majara-marketplace
+git clone https://github.com/MuhammadBahaa/majarrah-marketplace
 mkdir -p ~/.agents/skills
-cp -r majara-marketplace/plugins/skill-craft/skills/* ~/.agents/skills/
+cp -r majarrah-marketplace/plugins/skill-craft/skills/* ~/.agents/skills/
 ```
 - **Cursor / Copilot** also read `~/.claude/skills`, so a Claude install covers them too.
 - **Gemini CLI** alternative: `gemini skills install <path-to-a-skill-folder>`.
@@ -45,4 +45,4 @@ Restart the agent (or run its skills-reload command) and the skills auto-activat
 
 ## License
 
-[MIT](LICENSE) © Majara Nexus
+[MIT](LICENSE) © Majarrah Nexus

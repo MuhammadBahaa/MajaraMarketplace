@@ -17,7 +17,7 @@ Documentation-only release:
 
 ## 1.0.0 - 2026-07-22
 
-Initial public release on the `majara-marketplace` distribution repo:
+Initial public release on the `majarrah-marketplace` distribution repo:
 SkillCraft review craft for agent skills and plugins.
 Both skills were developed test-first in the read-craft plugin and moved
 here before any release (evidence: TESTING.md).

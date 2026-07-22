@@ -1,11 +1,11 @@
 {
-  "name": "majara-marketplace",
+  "name": "majarrah-marketplace",
   "owner": {
-    "name": "Majara Nexus",
+    "name": "Majarrah Nexus",
     "email": "muhammadbahaa75@gmail.com"
   },
   "metadata": {
-    "description": "Free, open AI-agent skills from Majara Nexus."
+    "description": "Free, open AI-agent skills from Majarrah Nexus."
   },
   "plugins": [
     {

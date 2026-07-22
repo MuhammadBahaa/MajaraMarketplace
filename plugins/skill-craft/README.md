@@ -1,13 +1,13 @@
 # Skill Craft
 
-[![Skill Craft — review what agents will actually do](assets/skill-craft-cover.png)](https://majara-marketplace.hashnode.dev/i-built-skill-craft-because-a-skill-can-look-right-and-still-fail-at-work)
+[![Skill Craft — review what agents will actually do](assets/skill-craft-cover.png)](https://majarrah-marketplace.hashnode.dev/i-built-skill-craft-because-a-skill-can-look-right-and-still-fail-at-work)
 
-[Read the article: **I Built Skill Craft — Because a Skill Can Look Right and Still Fail at Work**](https://majara-marketplace.hashnode.dev/i-built-skill-craft-because-a-skill-can-look-right-and-still-fail-at-work)
+[Read the article: **I Built Skill Craft — Because a Skill Can Look Right and Still Fail at Work**](https://majarrah-marketplace.hashnode.dev/i-built-skill-craft-because-a-skill-can-look-right-and-still-fail-at-work)
 
-[![skills.sh installs](https://skills.sh/b/MuhammadBahaa/majara-marketplace)](https://skills.sh/MuhammadBahaa/majara-marketplace)
+[![skills.sh installs](https://skills.sh/b/MuhammadBahaa/majarrah-marketplace)](https://skills.sh/MuhammadBahaa/majarrah-marketplace)
 
 Review and authoring craft for agent skills, custom agents, and plugins
-by **Majara Nexus** — SkillCraft. Skills first; custom agents and
+by **Majarrah Nexus** — SkillCraft. Skills first; custom agents and
 plugins are on the roadmap.
 
 | Skill | What it does |
@@ -29,22 +29,22 @@ Test evidence:
 
 **Claude Code**
 ```
-claude plugin marketplace add MuhammadBahaa/majara-marketplace
-/plugin install skill-craft@majara-marketplace
+claude plugin marketplace add MuhammadBahaa/majarrah-marketplace
+/plugin install skill-craft@majarrah-marketplace
 ```
 
-**Any agent via [skills.sh](https://skills.sh/MuhammadBahaa/majara-marketplace)**
+**Any agent via [skills.sh](https://skills.sh/MuhammadBahaa/majarrah-marketplace)**
 (Claude Code, Codex, Cursor, Copilot, Gemini CLI, and 70+ others):
 ```
-npx skills add MuhammadBahaa/majara-marketplace
+npx skills add MuhammadBahaa/majarrah-marketplace
 ```
 
 **Manual copy (OpenAI Codex / Cursor / GitHub Copilot / Gemini CLI)**
 All read the shared skills directory. Copy the skill folders into
 `~/.agents/skills/` (user-wide) or `<project>/.agents/skills/` (per project):
 ```
-git clone https://github.com/MuhammadBahaa/majara-marketplace
-cp -r majara-marketplace/plugins/skill-craft/skills/* ~/.agents/skills/
+git clone https://github.com/MuhammadBahaa/majarrah-marketplace
+cp -r majarrah-marketplace/plugins/skill-craft/skills/* ~/.agents/skills/
 ```
 Gemini CLI alternative: `gemini skills install <skill-folder-or-git-url>`.
 Cursor and Copilot also read `~/.claude/skills`, so a Claude install covers them too.
