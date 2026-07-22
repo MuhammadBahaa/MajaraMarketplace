@@ -1,5 +1,7 @@
 # Majara Nexus — Marketplace
 
+[![skills.sh installs](https://skills.sh/b/MuhammadBahaa/majara-marketplace)](https://skills.sh/MuhammadBahaa/majara-marketplace)
+
 Free, open AI-agent skills from **Majara Nexus**. Works with Claude Code and
 every agent that supports the Agent Skills open standard (Codex, Cursor,
 GitHub Copilot, Gemini CLI).
@@ -14,6 +16,12 @@ GitHub Copilot, Gemini CLI).
 | [`skill-craft`](plugins/skill-craft) | Review and authoring craft for agent skills, custom agents, and plugins — SkillCraft technical dimension-walk review with severity-mapped verdicts, and a guided walkthrough for reading and approving a skill in clear, organized parts. |
 
 ## Install
+
+### Any agent — [skills.sh](https://skills.sh/MuhammadBahaa/majara-marketplace)
+Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, and 70+ others:
+```bash
+npx skills add MuhammadBahaa/majara-marketplace
+```
 
 ### Claude Code
 ```bash

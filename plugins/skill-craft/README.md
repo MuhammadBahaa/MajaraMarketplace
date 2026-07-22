@@ -1,5 +1,7 @@
 # Skill Craft
 
+[![skills.sh installs](https://skills.sh/b/MuhammadBahaa/majara-marketplace)](https://skills.sh/MuhammadBahaa/majara-marketplace)
+
 Review and authoring craft for agent skills, custom agents, and plugins
 by **Majara Nexus** — SkillCraft. Skills first; custom agents and
 plugins are on the roadmap.
@@ -27,7 +29,13 @@ claude plugin marketplace add MuhammadBahaa/majara-marketplace
 /plugin install skill-craft@majara-marketplace
 ```
 
-**OpenAI Codex / Cursor / GitHub Copilot (VS Code) / Gemini CLI**
+**Any agent via [skills.sh](https://skills.sh/MuhammadBahaa/majara-marketplace)**
+(Claude Code, Codex, Cursor, Copilot, Gemini CLI, and 70+ others):
+```
+npx skills add MuhammadBahaa/majara-marketplace
+```
+
+**Manual copy (OpenAI Codex / Cursor / GitHub Copilot / Gemini CLI)**
 All read the shared skills directory. Copy the skill folders into
 `~/.agents/skills/` (user-wide) or `<project>/.agents/skills/` (per project):
 ```
