@@ -12,7 +12,7 @@
       "name": "skill-craft",
       "source": "./plugins/skill-craft",
       "description": "Review and authoring craft for agent skills, custom agents, and plugins \u2014 SkillCraft technical dimension-walk review with severity-mapped verdicts, and a guided walkthrough for reading and approving a skill in clear, organized parts. Skills first; custom agents and plugins on the roadmap.",
-      "version": "1.0.1"
+      "version": "1.0.2"
     }
   ]
 }

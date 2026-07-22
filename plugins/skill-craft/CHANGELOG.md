@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.2 - 2026-07-22
+
+Release-infrastructure update:
+
+- Publish the generated Marketplace package through the registered SSH key.
+- No skill behavior, review rules, documentation content, or output contracts changed.
+
 ## 1.0.1 - 2026-07-22
 
 Documentation-only release:
