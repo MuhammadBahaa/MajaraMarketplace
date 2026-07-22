@@ -1,0 +1,10 @@
+{
+  "name": "skill-craft",
+  "displayName": "Skill Craft",
+  "version": "1.0.0",
+  "description": "Review and authoring craft for agent skills, custom agents, and plugins — SkillCraft technical dimension-walk review with severity-mapped verdicts, and a guided walkthrough for reading and approving a skill in clear, organized parts. Skills first; custom agents and plugins on the roadmap.",
+  "author": { "name": "Muhammad Bahaa", "email": "muhammadbahaa75@gmail.com" },
+  "homepage": "https://github.com/MuhammadBahaa/majara-marketplace",
+  "license": "MIT",
+  "keywords": ["skill-review", "plugin-review", "agent-skills", "agent-review", "skill-authoring"]
+}
