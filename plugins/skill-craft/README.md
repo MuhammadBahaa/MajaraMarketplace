@@ -1,5 +1,9 @@
 # Skill Craft
 
+[![Skill Craft — review what agents will actually do](assets/skill-craft-cover.png)](https://majara-marketplace.hashnode.dev/i-built-skill-craft-because-a-skill-can-look-right-and-still-fail-at-work)
+
+[Read the article: **I Built Skill Craft — Because a Skill Can Look Right and Still Fail at Work**](https://majara-marketplace.hashnode.dev/i-built-skill-craft-because-a-skill-can-look-right-and-still-fail-at-work)
+
 [![skills.sh installs](https://skills.sh/b/MuhammadBahaa/majara-marketplace)](https://skills.sh/MuhammadBahaa/majara-marketplace)
 
 Review and authoring craft for agent skills, custom agents, and plugins

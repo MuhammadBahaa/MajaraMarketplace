@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1 - 2026-07-22
+
+Documentation-only release:
+
+- Add the official Skill Craft article cover to the plugin package.
+- Link the practical Skill Craft introduction from the plugin README.
+- No skill behavior, review rules, or output contracts changed.
+
 ## 1.0.0 - 2026-07-22
 
 Initial public release on the `majara-marketplace` distribution repo:
