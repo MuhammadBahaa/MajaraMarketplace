@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.0.7 - 2026-07-23
+
+Repository-metadata release (supersedes the unpublished 1.0.6, whose release
+workflow failed validation before it could run):
+
+- Show live release, license, and star badges on both public READMEs, so the
+  published version and repo signals read straight from GitHub.
+- Move the distribution repo's GitHub "About" data (description, homepage,
+  topics) and its marketplace identity into source-controlled
+  `distribution/<target>.meta.json`, replacing values hardcoded in `sync.py`.
+- Check that data against the live repo on every release, and apply it
+  automatically when an admin-scoped token is configured.
+- Fix the release workflow: `secrets` is not a valid context in a step-level
+  `if:`, so the token presence check moved inside the step.
+- No skill behavior, review rules, or output contracts changed.
+
 ## 1.0.5 - 2026-07-23
 
 Documentation and release-infrastructure update:

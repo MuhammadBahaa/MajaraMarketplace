@@ -1,5 +1,8 @@
 # Majarrah Nexus — Marketplace
 
+[![Latest release](https://img.shields.io/github/v/release/MuhammadBahaa/majarrah-marketplace?display_name=release&label=release&color=brightgreen)](https://github.com/MuhammadBahaa/majarrah-marketplace/releases)
+[![License](https://img.shields.io/github/license/MuhammadBahaa/majarrah-marketplace)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/MuhammadBahaa/majarrah-marketplace?style=flat)](https://github.com/MuhammadBahaa/majarrah-marketplace/stargazers)
 [![skills.sh installs](https://skills.sh/b/MuhammadBahaa/majarrah-marketplace)](https://skills.sh/MuhammadBahaa/majarrah-marketplace)
 
 Free, open AI-agent skills from **Majarrah Nexus**. Works with Codex, Claude
