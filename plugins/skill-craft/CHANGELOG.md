@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.5 - 2026-07-23
+
+Documentation and release-infrastructure update:
+
+- Rebalance both public README install sections so Codex, Claude Code,
+  skills.sh agents, and manual copy each get equal, parallel instructions.
+- Publish a GitHub Release for every synced plugin version, so the
+  distribution repo's Releases sidebar tracks what is actually published.
+- Sync the whole `distribution/<target>/` tree, not just the README, so the
+  distribution repo's own workflows stay generated from source.
+- No skill behavior, review rules, or output contracts changed.
+
 ## 1.0.4 - 2026-07-23
 
 Review follow-up:

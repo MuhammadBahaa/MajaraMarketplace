@@ -1,0 +1,30 @@
+# Publish a GitHub Release for each newly synced plugin version.
+#
+# Generated from MajarrahCore (distribution/majarrah-marketplace/) -- do not
+# edit here, changes are overwritten on the next release. The release job in
+# MajarrahCore pushes the generated content to main; this workflow turns each
+# new version in marketplace.json into a Release so the repo's Releases
+# sidebar tracks what is actually published.
+name: publish-release
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".claude-plugin/marketplace.json"
+      - "plugins/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Publish releases for new plugin versions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/scripts/publish_releases.py

@@ -29,9 +29,9 @@ Test evidence:
 
 ## Install
 
-### Codex
+Every route installs the same two skills. Pick the one that matches your agent.
 
-Add the marketplace, inspect it, and install Skill Craft:
+### Codex
 
 ```bash
 codex plugin marketplace add MuhammadBahaa/majarrah-marketplace
@@ -40,31 +40,43 @@ codex plugin list
 codex plugin add skill-craft@majarrah-marketplace
 ```
 
-Run `codex plugin list` again and confirm that
-`skill-craft@majarrah-marketplace` is `installed, enabled`. Start a
-new Codex task to load `skill-craft-review` and `skill-walkthrough`.
+`codex plugin list` should now show `skill-craft@majarrah-marketplace` as
+`installed, enabled`. Start a new Codex task to load `skill-craft-review`
+and `skill-walkthrough`.
 
-**Claude Code**
-```
+### Claude Code
+
+```bash
 claude plugin marketplace add MuhammadBahaa/majarrah-marketplace
+# then, inside Claude Code:
 /plugin install skill-craft@majarrah-marketplace
 ```
 
-**Any agent via [skills.sh](https://skills.sh/MuhammadBahaa/majarrah-marketplace)**
-(Claude Code, Codex, Cursor, Copilot, Gemini CLI, and 70+ others):
-```
+`/plugin` lists what is installed — `skill-craft` should be enabled. Start a
+new session to load both skills.
+
+### Cursor, GitHub Copilot, Gemini CLI, and others
+
+```bash
 npx skills add MuhammadBahaa/majarrah-marketplace
 ```
 
-**Manual copy (OpenAI Codex / Cursor / GitHub Copilot / Gemini CLI)**
-All read the shared skills directory. Copy the skill folders into
-`~/.agents/skills/` (user-wide) or `<project>/.agents/skills/` (per project):
-```
+[skills.sh](https://skills.sh/MuhammadBahaa/majarrah-marketplace) installs into
+the shared Agent Skills directory these agents read. Gemini CLI alternative:
+`gemini skills install <skill-folder-or-git-url>`. Reload skills or restart the
+agent afterwards.
+
+### Manual copy
+
+```bash
 git clone https://github.com/MuhammadBahaa/majarrah-marketplace
+mkdir -p ~/.agents/skills
 cp -r majarrah-marketplace/plugins/skill-craft/skills/* ~/.agents/skills/
 ```
-Gemini CLI alternative: `gemini skills install <skill-folder-or-git-url>`.
-Cursor and Copilot also read `~/.claude/skills`, so a Claude install covers them too.
+
+Use `~/.agents/skills/` (user-wide) or `<project>/.agents/skills/` (per
+project). Cursor and Copilot also read `~/.claude/skills`, so a Claude Code
+install covers them too. Restart the agent afterwards.
 
 ## License
 
