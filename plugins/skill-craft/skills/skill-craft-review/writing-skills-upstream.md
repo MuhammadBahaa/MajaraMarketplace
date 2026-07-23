@@ -36,7 +36,8 @@ discipline skill.
 6.0.3 (https://github.com/obra/superpowers), licensed under the MIT
 License, Copyright (c) 2025 Jesse Vincent. Copied 2026-07-21 into SkillCraft
 (skill-craft plugin) as the inherited foundation for the `skill-craft-review`
-skill, per MIT terms this notice is retained. The copy is verbatim except
+skill. The complete retained license is in
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The copy is verbatim except
 two deliberate portability trims: in the Overview, the bolded sentence
 "Personal skills live in your runtime's skills directory" drops upstream's
 continuation — links to upstream's `using-superpowers/references/*-tools.md`

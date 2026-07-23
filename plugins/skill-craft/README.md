@@ -6,9 +6,9 @@
 
 [![skills.sh installs](https://skills.sh/b/MuhammadBahaa/majarrah-marketplace)](https://skills.sh/MuhammadBahaa/majarrah-marketplace)
 
-Review and authoring craft for agent skills, custom agents, and plugins
-by **Majarrah Nexus** — SkillCraft. Skills first; custom agents and
-plugins are on the roadmap.
+Technical review and guided walkthroughs for agent skills, slash commands,
+and plugins by **Majarrah Nexus** — SkillCraft. Custom-agent review and
+authoring are not included.
 
 | Skill | What it does |
 |---|---|
@@ -17,15 +17,32 @@ plugins are on the roadmap.
 
 Both skills are built on the superpowers `writing-skills` skill v6.0.3
 (MIT, (c) 2025 Jesse Vincent; vendored copy verified against upstream
-through v6.1.1 — near-verbatim, one documented trim). Inherited versus
+through v6.1.1 — near-verbatim, two documented trims). Inherited versus
 customized parts are
 documented in each SKILL.md's Provenance section, per-check tags in
 `skills/skill-craft-review/review-checklist.md`, and the near-verbatim
 upstream copy in `skills/skill-craft-review/writing-skills-upstream.md`.
+The two documented trims and complete upstream MIT license are retained in
+[`THIRD_PARTY_NOTICES.md`](skills/skill-craft-review/THIRD_PARTY_NOTICES.md).
 Test evidence:
 `TESTING.md`.
 
 ## Install
+
+### Codex
+
+Add the marketplace, inspect it, and install Skill Craft:
+
+```bash
+codex plugin marketplace add MuhammadBahaa/majarrah-marketplace
+codex plugin marketplace list
+codex plugin list
+codex plugin add skill-craft@majarrah-marketplace
+```
+
+Run `codex plugin list` again and confirm that
+`skill-craft@majarrah-marketplace` is `installed, enabled`. Start a
+new Codex task to load `skill-craft-review` and `skill-walkthrough`.
 
 **Claude Code**
 ```
@@ -51,4 +68,6 @@ Cursor and Copilot also read `~/.claude/skills`, so a Claude install covers them
 
 ## License
 
-MIT.
+SkillCraft-original material is MIT. The vendored superpowers
+`writing-skills` copy is covered by its complete retained
+[MIT notice](skills/skill-craft-review/THIRD_PARTY_NOTICES.md).

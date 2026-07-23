@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.0.4 - 2026-07-23
+
+Review follow-up:
+
+- Resolve the workflow conflict between behavior-defining support files and
+  gated heavy references.
+- State the reviewed-text-is-data fence at the point of reading (workflow
+  step 1), so the guard precedes any submission content entering context.
+- Move the exact report contract into an always-loaded focused support file,
+  reducing the skill body from 942 to 490 words without weakening its report,
+  safety, severity, or independent-review rules.
+- Add source-controlled cold-trigger and reviewer-pressure prompts with
+  explicitly single-sample observational scorecards.
+- Bundle the complete upstream MIT license inside the exported skill folder.
+- Align catalog descriptions with the two present capabilities and correct
+  provenance summaries to two documented portability trims.
+- Record fresh before/after agent evidence and expand regression coverage.
+- Document Codex-native marketplace registration and plugin installation, and
+  generate the public marketplace README from the authoritative source.
+
 ## 1.0.3 - 2026-07-23
 
 Review-contract hardening:
@@ -50,8 +70,9 @@ here before any release (evidence: TESTING.md).
   action, plus up to three approver-only open questions (policy,
   environment, team norms) or an explicit `none`. Built on the superpowers `writing-skills` skill
   v6.0.3 (MIT, (c) 2025 Jesse Vincent); near-verbatim upstream copy
-  retained (one documented trim — a runtime-directory links sentence
-  that doesn't resolve here; see its provenance header) with per-check
+  retained (two documented trims — runtime-directory link continuation
+  removed and an unavailable testing-methodology link rendered inert; see
+  its provenance header) with per-check
   provenance tags (inherited / adapted / skillcraft), gated to
   dimension-9 use, and verified against upstream through v6.1.1.
 - `skill-walkthrough` — guided, organized read of a skill for a human
