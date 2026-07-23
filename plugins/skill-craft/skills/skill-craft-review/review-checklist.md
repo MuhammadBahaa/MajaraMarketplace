@@ -99,7 +99,11 @@ The guidance form must match the failure it prevents. `[inherited]`
 
 ## 6. Discipline enforcement
 
-For every never/always/must rule in the skill under review: `[inherited]`
+Apply this section only when baseline evidence shows an agent knows a rule
+but skips or violates it under pressure. Do not demand discipline
+scaffolding for a wrong shape, a required element, or conditional behavior;
+those need the positive template, REQUIRED slot, or observable predicate
+from dimension 5. For a demonstrated discipline failure: `[inherited]`
 
 - Is there a no-exceptions block closing the obvious workarounds explicitly?
 - Is there an "Excuse → Reality" rationalization table?

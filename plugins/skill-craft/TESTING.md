@@ -5,6 +5,19 @@ superpowers writing-skills methodology: baseline subagent runs without the
 skill, verification runs with it, loophole-closing edits, re-verification.
 Fixture: a realistic migrations skill with 15 planted defects.
 
+## skill-craft-review — 1.0.3 contract hardening (2026-07-23)
+
+- RED: a nine-check structural regression suite passed only the unchanged
+  report-contract check. Eight checks failed on the reviewed defects:
+  missing scope boundary, over-broad discipline enforcement, incomplete
+  reviewer-pressure scaffolding, forced praise, missing reference contents,
+  a broken local link, body size, and stale release metadata.
+- GREEN target: all nine checks pass while the required Safety scan, Token
+  cost, dimension coverage, severity verdicts, and Decision remain present.
+- The test is `tests/test_skill_craft_review_contract.py` in MajarrahCore.
+- Independent post-fix agent review remains required; structural GREEN is
+  verification, not self-approval.
+
 ## skill-craft-review (2026-07-21; developed as `reviewing-skills`)
 
 - Baseline (3 reps, no skill): 11/15 defects found per rep. All three reps

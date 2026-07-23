@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.0.3 - 2026-07-23
+
+Review-contract hardening:
+
+- Add an explicit non-use boundary for walkthrough, authoring, and code review.
+- Scope discipline scaffolding to demonstrated pressure failures instead of
+  every `must`/`always`/`never`.
+- Add no-exceptions, rationalization, and red-flags enforcement for reviewer
+  pressure.
+- Allow an honest `none` when a submission has no defensible strength.
+- Add a focused testing-methodology entry point and close broken local links.
+- Compact repeated output semantics while preserving the report contract.
+- Add deterministic regression coverage for these rules.
+
 ## 1.0.2 - 2026-07-22
 
 Release-infrastructure update:

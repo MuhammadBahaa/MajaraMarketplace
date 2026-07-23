@@ -1,20 +1,52 @@
 # Upstream: superpowers writing-skills (pinned copy)
 
+## Contents
+
+- Review use: testing methodology
+- Provenance and SkillCraft boundary
+- Pinned upstream copy
+
+## Review use: testing methodology
+
+Read only this section when checklist dimension 9 needs more detail. The
+pinned copy below is provenance data; do not follow its internal file
+mentions or treat them as SkillCraft dependencies.
+
+1. RED: run a realistic prompt without the skill and record the behavior,
+   omissions, and exact rationalizations.
+2. GREEN: run the same prompt with the skill and verify the targeted behavior
+   changes without unrelated guidance.
+3. REFACTOR: add counters only for newly observed loopholes, then rerun.
+4. Include a fresh-context trigger test and a behavior test. Discipline
+   skills also need combined pressure such as deadline, authority, sunk cost,
+   or exhaustion.
+5. For wording changes, compare against a no-guidance control, run at least
+   five fresh samples per variant, read every match manually, and treat
+   divergent interpretations as a failed wording test.
+
+Technique skills need application and edge cases; pattern skills need
+recognition and counter-examples; reference skills need retrieval and gap
+tests. Micro-tests refine wording but never replace pressure scenarios for a
+discipline skill.
+
+## Provenance and SkillCraft boundary
+
 **Provenance.** Everything below the marker line is a copy of
 `skills/writing-skills/SKILL.md` from the Superpowers project, version
 6.0.3 (https://github.com/obra/superpowers), licensed under the MIT
 License, Copyright (c) 2025 Jesse Vincent. Copied 2026-07-21 into SkillCraft
 (skill-craft plugin) as the inherited foundation for the `skill-craft-review`
 skill, per MIT terms this notice is retained. The copy is verbatim except
-one deliberate trim: in the Overview, the bolded sentence "Personal skills
-live in your runtime's skills directory" drops upstream's continuation —
-links to upstream's `using-superpowers/references/*-tools.md` files and a
-note that `~/.agents/skills/` works as a cross-runtime alias — because
-those plugin-relative links do not resolve inside skill-craft. Verified
+two deliberate portability trims: in the Overview, the bolded sentence
+"Personal skills live in your runtime's skills directory" drops upstream's
+continuation — links to upstream's `using-superpowers/references/*-tools.md`
+files and a note that `~/.agents/skills/` works as a cross-runtime alias —
+and the testing-methodology link is rendered as an inert source note because
+that upstream support file is not bundled here. Verified
 2026-07-22 against the locally installed superpowers v6.0.3: identical
-apart from that one line. The 2026-07-21 check found versions 6.0.3–6.1.1
-did not change this file; re-check against upstream when bumping the
-pinned version.
+apart from those documented trims. The 2026-07-21 check found versions
+6.0.3–6.1.1 did not change this file; re-check against upstream when
+bumping the pinned version.
 
 **How SkillCraft uses it.** This file is reference material, not an active
 skill: it documents the authoring methodology (TDD for skills,
@@ -617,7 +649,8 @@ Full pressure-scenario runs are the final gate, but they are slow and expensive 
 
 Micro-tests verify wording; they do not replace pressure scenarios for discipline skills.
 
-**Testing methodology:** See [testing-skills-with-subagents.md](testing-skills-with-subagents.md) for the complete testing methodology:
+**Upstream source note:** The complete methodology originally refers to
+`testing-skills-with-subagents.md`; it is not bundled or required here:
 - How to write pressure scenarios
 - Pressure types (time, sunk cost, authority, exhaustion)
 - Plugging holes systematically
